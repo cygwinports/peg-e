@@ -1,0 +1,62 @@
+peg-e
+------------------------------------------
+Peg-E is a peg solitaire game in which you jump over pieces in order to 
+remove them from the board, ultimately trying to eliminate all but one. 
+The boards are randomly generated, with 100 levels of difficulty. The 
+game auto-saves, and has undo-redo capability. Pieces can move 
+horizontally, vertically, and diagonally.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libQtCore4-4.4.2-1
+  libQtGui4-4.4.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.4-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://gottcode.org/peg-e/
+
+Canonical download:
+  http://gottcode.org/peg-e/
+
+-------------------------------------------
+
+Build instructions:
+  unpack peg-e-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./peg-e-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/peg-e-1.0.0-X-src.tar.bz2
+  /usr/src/peg-e-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/peg-e.sh
+  /usr/bin/peg-e.exe
+  /usr/share/applications/peg-e.desktop
+  /usr/share/doc/peg-e-1.0.0/COPYING
+  /usr/share/doc/peg-e-1.0.0/ChangeLog
+  /usr/share/doc/peg-e-1.0.0/README
+  /usr/share/icons/hicolor/48x48/apps/peg-e.png
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
