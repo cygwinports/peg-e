@@ -7,17 +7,19 @@ game auto-saves, and has undo-redo capability. Pieces can move
 horizontally, vertically, and diagonally.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libQtCore4-4.4.2-1
-  libQtGui4-4.4.2-1
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libQtCore4-4.4.3-10
+  libQtGui4-4.4.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.4-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
 
 Canonical website:
   http://gottcode.org/peg-e/
@@ -45,17 +47,17 @@ Files included in the binary package:
   /etc/postinstall/peg-e.sh
   /usr/bin/peg-e.exe
   /usr/share/applications/peg-e.desktop
-  /usr/share/doc/peg-e-1.0.0/COPYING
-  /usr/share/doc/peg-e-1.0.0/ChangeLog
-  /usr/share/doc/peg-e-1.0.0/README
+  /usr/share/doc/peg-e/COPYING
+  /usr/share/doc/peg-e/ChangeLog
+  /usr/share/doc/peg-e/README
   /usr/share/icons/hicolor/48x48/apps/peg-e.png
 
 ------------------
 
 Port Notes:
 
------ version 1.0.0-1 -----
-Initial release for Cygwin.
+----- version 1.1.0-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
