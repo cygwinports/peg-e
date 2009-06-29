@@ -1,5 +1,5 @@
 category: Games KDE
-requires: cygwin libgcc1 libQtCore4 libQtGui4 libstdc++6
+requires: libgcc1 libQtCore4 libQtGui4 libstdc++6
 sdesc: "Peg board game"
 ldesc: "Peg-E is a peg solitaire game in which you jump over pieces in 
 order to remove them from the board, ultimately trying to eliminate all 
