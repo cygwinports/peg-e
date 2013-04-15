@@ -1,7 +1,0 @@
-inherit qt4-qmake
-
-DESCRIPTION="Peg board game"
-HOMEPAGE="http://gottcode.org/peg-e/"
-SRC_URI="http://gottcode.org/peg-e/${P}-src.tar.bz2"
-
-CYGQMAKE4_ARGS="PREFIX=/usr"
