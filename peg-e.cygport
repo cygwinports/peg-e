@@ -1,7 +1,7 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="peg-e"
-VERSION=1.1.2
+VERSION=1.2.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Peg board game"
@@ -13,4 +13,4 @@ vertically, and diagonally."
 HOMEPAGE="http://gottcode.org/peg-e/"
 SRC_URI="http://gottcode.org/peg-e/${NAME}-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
